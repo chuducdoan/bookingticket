@@ -6,4 +6,5 @@
 - npm i tailwindcss:
     + npm install -D tailwindcss postcss autoprefixer
     + npx tailwindcss init -p
+    + 1 don vi la 0.25rem
 - npm i moment

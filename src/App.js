@@ -1,12 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import FlexDemo from './TailWindComponent/FlexDemo';
 
 function App() {
   return (
     <div className="App">
-      <h1 className="text-3xl font-bold underline shadow-lg">
-        Hello world!
-      </h1>
+      <FlexDemo/>
     </div>
   );
 }
