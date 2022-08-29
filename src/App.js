@@ -1,10 +1,10 @@
 import './App.css';
-import FlexDemo from './TailWindComponent/FlexDemo';
+import BaiTapChiaLayout from './TailWindComponent/BaiTapChiaLayout';
 
 function App() {
   return (
     <div className="App">
-      <FlexDemo/>
+      <BaiTapChiaLayout/>
     </div>
   );
 }
