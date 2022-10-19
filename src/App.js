@@ -1,10 +1,10 @@
 import './App.css';
-import BaiTapChiaLayout from './TailWindComponent/BaiTapChiaLayout';
+import JoinDemo from './Lodash/JoinDemo';
 
 function App() {
   return (
     <div className="App">
-      <BaiTapChiaLayout/>
+      <JoinDemo/>
     </div>
   );
 }

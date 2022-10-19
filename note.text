@@ -8,3 +8,20 @@
     + npx tailwindcss init -p
     + 1 don vi la 0.25rem
 - npm i moment
+
+1. Lodash:
+- hàm join: _join(array, [separator=",]): chuyển mảng sang string ngăn cách các phần tử bởi ký tự bạn truyền vào
+vd: const arrStudent = ['Lan', 'Hue', 'Dao'];
+    const result = _.join(arrStudent, '-');
+- ham chunk: _chunk(array, [size=option]): tao mot mang moi tu mang da co, gom cac mang con co so phan tu tuy chon truyen vao
+- ham fill: _fill(array, param, start, end-1): chen phan tu tu vi tri start den vi tri end-1
+- ham size: _size(array | object): Tra ve so phan tu trong mang hoac so thuoc tinh trong object
+- ham sortBy(collection, [iteratees=[_,identity]]) dung de sap xep collection theo dieu kien xac dinh
+vd: _.sortBy(users, [ite, => item.age])
+    _.sortBy(users, ['name', 'age']): sap xep theo name truoc sau do theo age
+- ham includes(): kiem tra xem cac gia tri truyen vao co nam trong collection hay khong.
+- ham uniq(arr): loai bo cac phan tu kieu du lieu nguyen thuy trung nhau
+- ham uniqBy(arr, iteratee=_.identity): loai bo cac phan tu object trung nhau theo mot tieu chi nao do
+- ham flatten(array): la ham dung de phan tach cac mang trong mang 1 cap
+- ham flattenDeep(array): la ham dung de phan tach tat ca cac mang trong mang nhieu cap
+- ham equal: so sanh hai mang hoac object
