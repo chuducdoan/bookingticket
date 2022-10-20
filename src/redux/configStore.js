@@ -5,4 +5,4 @@ const rootReducer = combineReducers({
     // state ung dung
 });
 
-const store = createStore(rootReducer, applyMiddleware(thunk));
+export const store = createStore(rootReducer, applyMiddleware(thunk));
